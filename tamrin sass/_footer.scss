@@ -1,0 +1,6 @@
+footer {
+  background-color: map-get($footer-theme , bg-color );
+  color: map-get($footer-theme , text-color);
+  padding: map-get($spacing , p-s );
+  text-align: center;
+}

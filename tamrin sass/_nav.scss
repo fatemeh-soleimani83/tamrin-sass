@@ -1,0 +1,21 @@
+nav {
+     background-color: map-get($nav-theme, bg-color);
+  padding: map-get($spacing, p-m);
+  width: 30%;
+  height: 300px;
+  float: left;
+  display: block;
+}
+
+nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav>ul>li>a {
+    display: inline-block;
+        font-size: map-get($title, paragraph);
+        text-decoration: none;
+}

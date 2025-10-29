@@ -1,0 +1,7 @@
+article {
+  float: left;
+  padding:map-get($spacing , p-m );
+  width: 70%;
+  height: 300px;
+  background-color: map-get($article-theme , bg-color );
+}
